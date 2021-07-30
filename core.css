@@ -1,16 +1,12 @@
 /* Table of Contents */
 /*
   1. Grid
-    i. grid
-	ii. template columns
-	iii. template rows
-	iv. grid columns
-	v. grid rows
-	vi. column spans
-	vii. row spans
-	viii. auto-flow
-	ix. column gaps
-	x. row gaps
+    i. grid container
+	ii. template columns, rows
+	iii. grid columns, rows
+	iv. column, row spans
+	v. auto-flow
+	vi. column, row gaps
 
   2. Flex
   i. flex direction
