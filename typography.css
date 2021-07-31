@@ -9,6 +9,7 @@
 */
 
 /* TODO: decide on a font-stack */
+/* Font Family */
 .font-sans{
 	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -21,6 +22,7 @@
 	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/* Font Size */
 .text-xs { font-size: .75rem; line-height: 1rem; }
 .text-sm { font-size: .875rem; line-height: 1.25rem; }
 .text-base { font-size: 1rem; line-height: 1.5rem; }
@@ -35,6 +37,7 @@
 .text-8xl { font-size: 6rem; line-height: 1; }
 .text-9xl { font-size: 8rem; line-height: 1; }
 
+/* Font Decoration */
 .italic { font-style: italic; }
 .underline { text-decoration: underline; }
 .no-deco { text-decoration: none; }
@@ -44,20 +47,24 @@
 .font-bold { font-weight: 700; }
 .font-black { font-weight: 900; }
 
+/* Line Height */
 .line-tight { line-height: 1.25; }
 .line-normal { line-height: 1.5; }
 .line-loose { line-height: 2; }
 
+/* Text Align */
 .text-left { text-align: left; }
 .text-center { text-align: center; }
 .text-right	{ text-align: right; }
 .text-justify { text-align: justify; }
 
+/* Text Transformation */
 .upper { text-transform: uppercase; }
 .lower { text-transform: lowercase; }
 .capital { text-transform: capitalize; }
 .normal-case { text-transform: none; }
 
+/* Text Overflow & Word Break */
 .truncate {
 	overflow: hidden;
 	text-overflow: ellipsis;
