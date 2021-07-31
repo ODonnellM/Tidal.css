@@ -14,6 +14,9 @@ Margins
   v. margin-bottom
 */
 
+/********** Padding **********/
+
+/* Padding */
 .p-0 { padding: 0px; }
 .p-px { padding: 1px; }
 .p-0.5 { padding: .125rem; }
@@ -32,6 +35,7 @@ Margins
 .p-10 { padding: 2.75rem; }
 .p-11 { padding: 3rem; }
 
+/* Padding-left */
 .pl-0 { padding-left: 0px; }
 .pl-px { padding-left: 1px; }
 .pl-0.5 { padding-left: .125rem; }
@@ -50,6 +54,7 @@ Margins
 .pl-10 { padding-left: 2.75rem; }
 .pl-11 { padding-left: 3rem; }
 
+/* Padding-top */
 .pt-0 { padding-top: 0px; }
 .pt-px { padding-top: 1px; }
 .pt-0.5 { padding-top: .125rem; }
@@ -68,6 +73,7 @@ Margins
 .pt-10 { padding-top: 2.75rem; }
 .pt-11 { padding-top: 3rem; }
 
+/* Padding-right */
 .pr-0 { padding-right: 0px; }
 .pr-px { padding-right: 1px; }
 .pr-0.5 { padding-right: .125rem; }
@@ -86,6 +92,7 @@ Margins
 .pr-10 { padding-right: 2.75rem; }
 .pr-11 { padding-right: 3rem; }
 
+/* Padding-bottom */
 .pb-0 { padding-bottom: 0px; }
 .pb-px { padding-bottom: 1px; }
 .pb-0.5 { padding-bottom: .125rem; }
@@ -104,6 +111,9 @@ Margins
 .pb-10 { padding-bottom: 2.75rem; }
 .pb-11 { padding-bottom: 3rem; }
 
+/********** Margins **********/
+
+/* Margin */
 .m-0 { margin: 0px; }
 .m-px { margin: 1px; }
 .m-0.5 { margin: .125rem; }
@@ -122,6 +132,7 @@ Margins
 .m-10 { margin: 2.5rem; }
 .m-11 { margin: 3rem; }
 
+/* Margin-left */
 .ml-0 { margin-left: 0px; }
 .ml-px { margin-left: 1px; }
 .ml-0.5 { margin-left: .125rem; }
@@ -140,6 +151,7 @@ Margins
 .ml-10 { margin-left: 2.5rem; }
 .ml-11 { margin-left: 3rem; }
 
+/* Margin-top */
 .mt-0 { margin-top: 0px; }
 .mt-px { margin-top: 1px; }
 .mt-0.5 { margin-top: .125rem; }
@@ -158,6 +170,7 @@ Margins
 .mt-10 { margin-top: 2.5rem; }
 .mt-11 { margin-top: 3rem; }
 
+/* Margin-right */
 .mr-0 { margin-right: 0px; }
 .mr-px { margin-right: 1px; }
 .mr-0.5 { margin-right: .125rem; }
@@ -176,6 +189,7 @@ Margins
 .mr-10 { margin-right: 2.5rem; }
 .mr-11 { margin-right: 3rem; }
 
+/* Margin-bottom */
 .mb-0 { margin-bottom: 0px; }
 .mb-px { margin-bottom: 1px; }
 .mb-0.5 { margin-bottom: .125rem; }
