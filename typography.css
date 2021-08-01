@@ -5,7 +5,8 @@
   4. line height
   5. text align
   6. text transformation
-  7. text overflow & word break
+  7. vertical align
+  8. text overflow & word break
 */
 
 /* TODO: decide on a font-stack */
@@ -63,6 +64,14 @@
 .lower { text-transform: lowercase; }
 .capital { text-transform: capitalize; }
 .normal-case { text-transform: none; }
+
+/* Vertical Align */
+.align-baseline { vertical-align: baseline; }
+.align-top { vertical-align: top; }
+.align-middle { vertical-align: middle; }
+.align-bottom { vertical-align: bottom; }
+.align-text-top { vertical-align: text-top; }
+.align-text-bottom { vertical-align: text-bottom; }
 
 /* Text Overflow & Word Break */
 .truncate {
