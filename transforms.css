@@ -1,13 +1,13 @@
 .transform-none { transform: none; }
 .transform {
-	--tw-translate-x: 0;
-	--tw-translate-y: 0;
-	--tw-rotate: 0;
-	--tw-skew-x: 0;
-	--tw-skew-y: 0;
-	--tw-scale-x: 1;
-	--tw-scale-y: 1;
-	transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+	--td-translate-x: 0;
+	--td-translate-y: 0;
+	--td-rotate: 0;
+	--td-skew-x: 0;
+	--td-skew-y: 0;
+	--td-scale-x: 1;
+	--td-scale-y: 1;
+	transform: translateX(var(--td-translate-x)) translateY(var(--td-translate-y)) rotate(var(--td-rotate)) skewX(var(--td-skew-x)) skewY(var(--td-skew-y)) scaleX(var(--td-scale-x)) scaleY(var(--td-scale-y));
 }
 
 /* Origin */
@@ -22,68 +22,68 @@
 .origin-top-left { transform-origin: top left; }
 
 /* Scale */
-.scale-50 { --tw-scale-x: .50; --tw-scale-y: .50; }
-.scale-75 { --tw-scale-x: .75; --tw-scale-y: .75; }
-.scale-90 { --tw-scale-x: .90; --tw-scale-y: .90; }
-.scale-100 { --tw-scale-x: 1.0; --tw-scale-y: 1.0; }
-.scale-125 { --tw-scale-x: 1.25; --tw-scale-y: 1.25; }
-.scale-150 { --tw-scale-x: 1.50; --tw-scale-y: 1.50; }
+.scale-50 { --td-scale-x: .50; --td-scale-y: .50; }
+.scale-75 { --td-scale-x: .75; --td-scale-y: .75; }
+.scale-90 { --td-scale-x: .90; --td-scale-y: .90; }
+.scale-100 { --td-scale-x: 1.0; --td-scale-y: 1.0; }
+.scale-125 { --td-scale-x: 1.25; --td-scale-y: 1.25; }
+.scale-150 { --td-scale-x: 1.50; --td-scale-y: 1.50; }
 
-.scale-x-50 { --tw-scale-x: .50; }
-.scale-x-75 { --tw-scale-x: .75; }
-.scale-x-90 { --tw-scale-x: .90; }
-.scale-x-100 { --tw-scale-x: 1.0; }
-.scale-x-125 { --tw-scale-x: 1.25; }
-.scale-x-150 { --tw-scale-x: 1.50; }
+.scale-x-50 { --td-scale-x: .50; }
+.scale-x-75 { --td-scale-x: .75; }
+.scale-x-90 { --td-scale-x: .90; }
+.scale-x-100 { --td-scale-x: 1.0; }
+.scale-x-125 { --td-scale-x: 1.25; }
+.scale-x-150 { --td-scale-x: 1.50; }
 
-.scale-y-50 { --tw-scale-y: .50; }
-.scale-y-75 { --tw-scale-y: .75; }
-.scale-y-90 { --tw-scale-y: .90; }
-.scale-y-100 { --tw-scale-y: 1.0; }
-.scale-y-125 { --tw-scale-y: 1.25; }
-.scale-y-150 { --tw-scale-y: 1.50; }
+.scale-y-50 { --td-scale-y: .50; }
+.scale-y-75 { --td-scale-y: .75; }
+.scale-y-90 { --td-scale-y: .90; }
+.scale-y-100 { --td-scale-y: 1.0; }
+.scale-y-125 { --td-scale-y: 1.25; }
+.scale-y-150 { --td-scale-y: 1.50; }
 
 /* Rotate */
-.rotate-0 { --tw-rotate: 0deg; }
-.rotate-30 { --tw-rotate: 30deg; }
-.rotate-45 { --tw-rotate: 45deg; }
-.rotate-60 { --tw-rotate: 60deg; }
-.rotate-90 { --tw-rotate: 90deg; }
-.rotate-120 { --tw-rotate: 120deg; }
-.rotate-180 { --tw-rotate: 180deg; }
+.rotate-0 { --td-rotate: 0deg; }
+.rotate-30 { --td-rotate: 30deg; }
+.rotate-45 { --td-rotate: 45deg; }
+.rotate-60 { --td-rotate: 60deg; }
+.rotate-90 { --td-rotate: 90deg; }
+.rotate-120 { --td-rotate: 120deg; }
+.rotate-180 { --td-rotate: 180deg; }
 
-.-rotate-30 { --tw-rotate: -30deg; }
-.-rotate-45 { --tw-rotate: -45deg; }
-.-rotate-60 { --tw-rotate: -60deg; }
-.-rotate-90 { --tw-rotate: -90deg; }
-.-rotate-120 { --tw-rotate: -120deg; }
-.-rotate-180 { --tw-rotate: -180deg; }
+.-rotate-30 { --td-rotate: -30deg; }
+.-rotate-45 { --td-rotate: -45deg; }
+.-rotate-60 { --td-rotate: -60deg; }
+.-rotate-90 { --td-rotate: -90deg; }
+.-rotate-120 { --td-rotate: -120deg; }
+.-rotate-180 { --td-rotate: -180deg; }
 
 /* Translate */
 
 /* Skew */
-.skew-x-0 { --tw-skew-x: 0deg; }
-.skew-x-1 { --tw-skew-x: 1deg; }
-.skew-x-2 { --tw-skew-x: 2deg; }
-.skew-x-3 { --tw-skew-x: 3deg; }
-.skew-x-6 { --tw-skew-x: 6deg; }
-.skew-x-12 { --tw-skew-x: 12deg; }
+.skew-x-0 { --td-skew-x: 0deg; }
+.skew-x-1 { --td-skew-x: 1deg; }
+.skew-x-2 { --td-skew-x: 2deg; }
+.skew-x-3 { --td-skew-x: 3deg; }
+.skew-x-6 { --td-skew-x: 6deg; }
+.skew-x-12 { --td-skew-x: 12deg; }
 
-.-skew-x-1 { --tw-skew-x: -1deg; }
-.-skew-x-2 { --tw-skew-x: -2deg; }
-.-skew-x-3 { --tw-skew-x: -3deg; }
-.-skew-x-6 { --tw-skew-x: -6deg; }
-.-skew-x-12 { --tw-skew-x: -12deg; }
+.-skew-x-1 { --td-skew-x: -1deg; }
+.-skew-x-2 { --td-skew-x: -2deg; }
+.-skew-x-3 { --td-skew-x: -3deg; }
+.-skew-x-6 { --td-skew-x: -6deg; }
+.-skew-x-12 { --td-skew-x: -12deg; }
 
-.skew-y-0 { --tw-skew-y: 0deg; }
-.skew-y-1 { --tw-skew-y: 1deg; }
-.skew-y-2 { --tw-skew-y: 2deg; }
-.skew-y-3 { --tw-skew-y: 3deg; }
-.skew-y-6 { --tw-skew-y: 6deg; }
-.skew-y-12 { --tw-skew-y: 12deg; }
+.skew-y-0 { --td-skew-y: 0deg; }
+.skew-y-1 { --td-skew-y: 1deg; }
+.skew-y-2 { --td-skew-y: 2deg; }
+.skew-y-3 { --td-skew-y: 3deg; }
+.skew-y-6 { --td-skew-y: 6deg; }
+.skew-y-12 { --td-skew-y: 12deg; }
 
-.-skew-y-1 { --tw-skew-y: -1deg; }
-.-skew-y-2 { --tw-skew-y: -2deg; }
-.-skew-y-3 { --tw-skew-y: -3deg; }
-.-skew-y-6 { --tw-skew-y: -6deg; }
-.-skew-y-12 { --tw-skew-y: -12deg; }
+.-skew-y-1 { --td-skew-y: -1deg; }
+.-skew-y-2 { --td-skew-y: -2deg; }
+.-skew-y-3 { --td-skew-y: -3deg; }
+.-skew-y-6 { --td-skew-y: -6deg; }
+.-skew-y-12 { --td-skew-y: -12deg; }
