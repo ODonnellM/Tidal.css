@@ -1,0 +1,54 @@
+/********** Enable/Disable Filter Effects **********/
+.filter { filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) /*var(--tw-hue-rotate)*/ var(--tw-invert) var(--tw-saturate) var(--tw-sepia) /*var(--tw-drop-shadow)*/; }
+.filter-none { filter: none; }
+
+/********** Blur **********/
+.blur-none { --tw-blur: blur(0); }
+.blur-sm { --tw-blur: blur(4px); }
+.blur { --tw-blur: blur(8px); }
+.blur-md { --tw-blur: blur(12px); }
+.blur-lg { --tw-blur: blur(16px); }
+.blur-xl { --tw-blur: blur(24px); }
+.blur-2xl { --tw-blur: blur(40px); }
+.blur-3xl { --tw-blur: blur(64px); }
+
+/********** Brightness **********/
+.brightness-0 { --tw-brightness: brightness(0); }
+.brightness-50 { --tw-brightness: brightness(.50); }
+.brightness-75 { --tw-brightness: brightness(0.75); }
+.brightness-90 { --tw-brightness: brightness(.90); }
+.brightness-95 { --tw-brightness: brightness(.95); }
+.brightness-100 { --tw-brightness: brightness(1.00); }
+.brightness-105 { --tw-brightness: brightness(1.05); }
+.brightness-110 { --tw-brightness: brightness(1.10); }
+.brightness-125 { --tw-brightness: brightness(1.25); }
+.brightness-150 { --tw-brightness: brightness(1.50); }
+.brightness-200 { --tw-brightness: brightness(2.00); }
+
+/********** Contrast **********/
+.contrast-0 { --tw-contrast: contrast(0); }
+.contrast-50 { --tw-contrast: contrast(.50); }
+.contrast-75 { --tw-contrast: contrast(.75); }
+.contrast-100 { --tw-contrast: contrast(1.00); }
+.contrast-125 { --tw-contrast: contrast(1.25); }
+.contrast-150 { --tw-contrast: contrast(1.50); }
+.contrast-200 { --tw-contrast: contrast(2.00); }
+
+/********** Grayscale **********/
+.grayscale-0 { --tw-grayscale: grayscale(0); }
+.grayscale { --tw-grayscale: grayscale(1); }
+
+/********** Invert **********/
+.invert-0 { --tw-invert: invert(0); }
+.invert { --tw-invert: invert(1); }
+
+/********** Saturate **********/
+.saturate-0 { --tw-saturate: saturate(0); }
+.saturate-50 { --tw-saturate: saturate(.50); }
+.saturate-100 { --tw-saturate: saturate(1.00); }
+.saturate-150 { --tw-saturate: saturate(1.50); }
+.saturate-200 { --tw-saturate: saturate(2.00); }
+
+/********** Sepia **********/
+.sepia-0 { --tw:sepia: sepia(0); }
+.sepia { --tw:sepia: sepia(1); }
