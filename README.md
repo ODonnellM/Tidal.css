@@ -15,7 +15,7 @@ Rather than lock users into a collection of components they may not even want, T
 Because Tidal is designed utility-first, it can be used in practically _any_ project to quickly and painlessly style your site. Now you can hit the ground running with that Tinder-for-Axolotls webapp the world didn't know it desperately needed.
 
 # Installation
-Just drop any/all of Tidal's CSS files wherever you normally include your stylesheets.
+Just drop any/all of Tidal's SCSS files wherever you normally include your stylesheets.
 
 # License
 GNU GPLv3
